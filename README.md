@@ -1,4 +1,26 @@
 # Features (currently not implemented)
+Regular Carishan: 6% shield bypass chance, spear-reach, 0.9x attack speed, right-click slam attack
+Grand Carishan: 26% shield bypass chance, +3.6m reach on top of spear-reach, 0.8x attack speed, right-click slam attack
+
+Slam Attack: Right-click to slam, 2 durability cost, can be countered by looking up
+Counter Success: Target takes 3x shield durability damage, no damage to attacker, 1.5x on regular Carishan
+Counter Fail: Target takes slam damage + Staggered effect (can't block for 0.5s)
+
+**Enchantments**
+Weighted: Pulls enemies over 1s + 0.2s per level
+Overwhelming Force: 4s shield cooldown on blocked hits, +1 damage per 4 fall blocks
+Wind Thrust: Pushes nearby mobs away in 4 block radius
+
+
+
+
+
+
+
+
+
+
+
 Fully Configurable: All variables can be configured.
 
 **Slam Effects**: Crunch sound, screen shake, cracked particles, low-frequency thud (16 block range)

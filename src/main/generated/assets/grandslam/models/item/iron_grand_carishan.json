@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "grandslam:item/netherite_grand_halberd"
+    "layer0": "grandslam:item/iron_grand_carishan"
   }
 }
