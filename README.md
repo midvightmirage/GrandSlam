@@ -11,9 +11,9 @@ Fully Configurable: All variables can be configured.
 
 ## Enchantments:
 
-**Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace when critting. Config for Knockback compat (default false)
+**Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace when critting. Config for Knockback compat (default false) (2 max levels)
 
-**Overwhelming Force**: Failed look-up counter = 4s shield cooldown. Damage +1 per 4 fallen blocks, cap 20. Configurable increase/cap/disable
+**Overwhelming Force**: Failed look-up counter = 4s shield cooldown. Damage +1 per 4 fallen blocks, cap 20. Configurable increase/cap/disable (only 1 level)
 
 
 
@@ -59,7 +59,7 @@ Fully Configurable: All variables can be configured.
 
 \- Cooldown: Spear time (1.2x for Grand)
 
-\- Pull: 2 blocks +3 per Weighted level. Duration: 1s +0.2s per level
+\- Pull: +3.3 per Weighted level. Duration: 1s +0.2s per level (Only with Weighted) [1.5 per Weighted level on non Grand size Halberd]
 
 
 
