@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "grand_slam",
+  "version": "${version}",
+  "name": "Grand Slam",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/grand_slam/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "midvightmirage.grandslam.client.GrandSlamDataGenerator"
+    ],
+    "client": [
+      "midvightmirage.grandslam.client.GrandSlamClient"
+    ],
+    "main": [
+      "midvightmirage.grandslam.GrandSlam"
+    ]
+  },
+  "mixins": [
+    "grand_slam.mixins.json",
+    {
+      "config": "grand_slam.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
