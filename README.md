@@ -1,5 +1,5 @@
 # Features (currently not implemented)
-Fully COnfigurable: All variables can be configured.
+Fully Configurable: All variables can be configured.
 
 **Slam Effects**: Crunch sound, screen shake, cracked particles, low-frequency thud (16 block range)
 
