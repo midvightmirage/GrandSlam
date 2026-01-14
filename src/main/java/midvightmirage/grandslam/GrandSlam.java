@@ -11,7 +11,9 @@ public class GrandSlam implements ModInitializer {
     @Override
     public void onInitialize() {
         GrandSlamItems.initialize();
-        // TODO: Implement Datagen + Add Textures, Models & Recipes
         // TODO: Add Custom Item Features
+        // TODO: Add Textures & Sounds
+        // TODO: Item Model & Icon like Spear and Trident
+        // TODO: Item Animations
     }
 }

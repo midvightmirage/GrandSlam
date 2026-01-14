@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "grandslam:item/wooden_grand_halberd"
+  }
+}
