@@ -8,7 +8,7 @@
 
 
 
-**Enchantments**:
+## Enchantments:
 
 **Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace when critting. Config for Knockback compat (default false)
 
@@ -16,7 +16,7 @@
 
 
 
-**Regular Halbert**:
+## Regular Halbert:
 
 \- Reach: Spear-equivalent
 
@@ -30,7 +30,7 @@
 
 
 
-**Grand Halbert**:
+## Grand Halbert:
 
 \- Reach: Spear +3.6m
 
@@ -58,7 +58,7 @@ Right-click anim: Half cooldown
 
 
 
-**Right-click Slam**:
+## Right-click Slam:
 
 \- Cooldown: Spear time (1.2x for Grand)
 
@@ -66,7 +66,7 @@ Right-click anim: Half cooldown
 
 
 
-**Enchantment Rules**:
+## Enchantment Rules:
 
 \- Wind Burst: Throws all other mobs away
 
@@ -78,7 +78,7 @@ Right-click anim: Half cooldown
 
 
 
-**Durability**:
+## Durability:
 
 Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:3072
 
@@ -86,7 +86,7 @@ Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:30
 
 
 
-**Tooltips**: (Slam blockable= new line)
+## Tooltips: (Slam blockable= new line)
 
 Regular: "Shield Defense: 6% fail (Protection reduces)"
 
