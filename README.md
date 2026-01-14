@@ -19,55 +19,53 @@ Fully Configurable: All variables can be configured.
 
 ## Regular Halberd:
 
-\- Reach: Spear-equivalent
+\- **Reach**: Spear-equivalent
 
-\- Speed: 0.9x sword
+\- **Speed**: 0.9x sword
 
-\- Block break: 0.5x unless mainhand
+\- **Block break**: 0.5x unless mainhand
 
-\- Shield disable: Recharge doubled, 6% chance of attacker shield being bypassed. Protection reduces 2%/level
+\- **Shield disable**: Recharge doubled, 6% chance of attacker shield being bypassed. Protection reduces 2%/level
 
-\- Right-click anim: Half of attack cooldown
+\- **Right-click animation**: Half of attack cooldown
 
 
 
 ## Grand Halberd:
 
-\- Reach: Spear +3.6m
+\- **Reach**: Spear +3.6m
 
-\- Speed: 0.8x sword
+\- **Speed**: 0.8x sword
 
-\- Block break: 0.8x unless mainhand
+\- **Block break**: 0.8x unless mainhand
 
-\- Shield disable: Recharge doubled, 26% chance of attacker shield being bypassed. Protection reduces 2%/level
+\- **Shield disabl**e: Recharge doubled, 26% chance of attacker shield being bypassed. Protection reduces 2%/level
 
-\- Late Block: Normal bypass chance
+\- **Right-click**: Bypasses shield (from above). Counter by looking up during attack animation. (Bypasses shield delay by default)
 
-\- Right-click: Bypasses shield (from above). Counter by looking up during attack animation. (Bypasses shield delay by default)
-
-   \- Grace period: 0.1s server-side (latency)
+   \- **Grace period**: 0.1s server-side (latency)
    
-   \- Counter success: 100% blocked, no pull, 3x shield durability damage
+   \- **Counter success**: 100% blocked, no pull, 3x shield durability damage
    
-   \- Counter fail: Full Slam + "Staggered" debuff (0.5s, can't raise shield)
+   \- **Counter fail**: Full Slam + "Staggered" debuff (0.5s, can't raise shield)
 
-\- Right-click attack animation duration: Half of the attack cooldown duration
+\- **Right-click attack animation duration**: Half of the attack cooldown duration
 
 
 
 ## Right-click Slam:
 
-\- Cooldown: Spear time (1.2x for Grand)
+\- **Cooldown**: Spear time (1.2x for Grand)
 
-\- Pull: +3.3 per Weighted level. Duration: 1s +0.2s per level (Only with Weighted) [1.5 per Weighted level on non Grand size Halberd]
+\- **Pull**: +3.3 per Weighted level. Duration: 1s +0.2s per level (Only with Weighted) [1.5 per Weighted level on non Grand size Halberd]
 
 
 
 ## Enchantment Rules:
 
-\- Sweeping Edge: Left-click only (by default)
+\- **Sweeping Edge**: Left-click only (by default)
 
-\- Protection: Reduces bypass chance
+\- **Protection**: Reduces bypass chance
 
 \- Compatible with all sword enchantments
 
@@ -75,7 +73,7 @@ Fully Configurable: All variables can be configured.
 
 ## Durability:
 
-Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:3072
+**Wood/Gold**:128 | **Stone**:256 | **Copper**:512 | **Iron**:1024 | **Diamond**:2048 | **Netherite**:3072
 
 \- Right-click: 2 durability cost
 
@@ -83,11 +81,11 @@ Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:30
 
 ## Tooltips: (Slam blockable= new line)
 
-Regular: "Shield Defense: 6% fail (Protection reduces)"
+**Regular**: "Shield Defense: 6% fail (Protection reduces)"
 
-Grand: "Shield Defense: 26% fail (Protection reduces)"
+**Grand**: "Shield Defense: 26% fail (Protection reduces)"
 
-Both: "• Slam blockable by looking up"
+**Both**: "• Slam blockable by looking up"
 
 
 
