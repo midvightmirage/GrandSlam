@@ -81,9 +81,9 @@ Fully Configurable: All variables can be configured.
 
 ## Tooltips: (Slam blockable= new line)
 
-**Regular**: "Shield Defense: 6% fail (Protection reduces)"
+**Regular**: "Shield Defense: fals 6% of the time (Protection reduces)"
 
-**Grand**: "Shield Defense: 26% fail (Protection reduces)"
+**Grand**: "Shield Defense: fails 26% of the time (Protection reduces)"
 
 **Both**: "• Slam blockable by looking up"
 
