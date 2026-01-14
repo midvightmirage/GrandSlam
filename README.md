@@ -25,7 +25,7 @@ Fully Configurable: All variables can be configured.
 
 \- Block break: 0.5x unless mainhand
 
-\- Shield disable: Recharge doubled, 6% bypass. Protection reduces 2%/level
+\- Shield disable: Recharge doubled, 6% chance of attacker shield being bypassed. Protection reduces 2%/level
 
 \- Right-click anim: Half of attack cooldown
 
@@ -39,13 +39,11 @@ Fully Configurable: All variables can be configured.
 
 \- Block break: 0.8x unless mainhand
 
-\- Shield disable: Recharge doubled, 26% bypass. Protection reduces 2%/level
-
-\- Perfect Block: ≤0.2s timing = 0% bypass
+\- Shield disable: Recharge doubled, 26% chance of attacker shield being bypassed. Protection reduces 2%/level
 
 \- Late Block: Normal bypass chance
 
-\- Right-click: Bypasses shield (from above). Counter by looking up during anim
+\- Right-click: Bypasses shield (from above). Counter by looking up during attack animation. (Bypasses shield delay by default)
 
    \- Grace period: 0.1s server-side (latency)
    
