@@ -25,7 +25,7 @@ Fully Configurable: All variables can be configured.
 
 \- **Block break**: 0.5x unless mainhand
 
-\- **Shield disable**: Recharge doubled, 6% chance of attacker shield being bypassed. Protection reduces 2%/level
+\- **Shield disable**: Recharges attack coldoown twice as fast for the attacker. 6% chance of shield being bypassed. Protection reduces odds of shield being disabled by 2% per level.
 
 \- **Right-click animation**: Half of attack cooldown
 
@@ -39,7 +39,7 @@ Fully Configurable: All variables can be configured.
 
 \- **Block break**: 0.8x unless mainhand
 
-\- **Shield disabl**e: Recharge doubled, 26% chance of attacker shield being bypassed. Protection reduces 2%/level
+\- **Shield disable**: Recharges attack coldoown twice as fast for the attacker. 26% chance of shield being bypassed. Protection reduces odds of shield being disabled by 2% per level.
 
 \- **Right-click**: Bypasses shield (from above). Counter by looking up during attack animation. (Bypasses shield delay by default)
 
@@ -65,7 +65,7 @@ Fully Configurable: All variables can be configured.
 
 \- **Sweeping Edge**: Left-click only (by default)
 
-\- **Protection**: Reduces bypass chance
+\- **Protection**: Reduces bypass chance (on target's shield)
 
 \- Compatible with all sword enchantments
 
@@ -96,3 +96,6 @@ Fully Configurable: All variables can be configured.
 # Contributing
 
 # Credits
+
+# Random Thoughts
+A mod that adds frostbrite (because thought about something relating to shield and fire aspect, specifically fire aspect making shields burn)
