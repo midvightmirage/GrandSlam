@@ -17,7 +17,7 @@ Fully Configurable: All variables can be configured.
 
 
 
-## Regular Halbert:
+## Regular Halberd:
 
 \- Reach: Spear-equivalent
 
@@ -31,7 +31,7 @@ Fully Configurable: All variables can be configured.
 
 
 
-## Grand Halbert:
+## Grand Halberd:
 
 \- Reach: Spear +3.6m
 
