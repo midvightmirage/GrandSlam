@@ -11,11 +11,11 @@ Fully Configurable: All variables can be configured.
 
 ## Enchantments:
 
-**Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace when critting. Config for Knockback compat (default false) (2 max levels)
+**Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace/Spear when critting. Config for Knockback compat (default false) (2 max levels) [disables knockback]
 
-**Overwhelming Force**: Failed look-up counter = 4s shield cooldown. Damage +1 per 4 fallen blocks, cap 20. Configurable increase/cap/disable (only 1 level)
+**Overwhelming Force**: Failed look-up counter = 4s shield cooldown. Damage +1 per 4 fallen blocks, cap 20. Configurable increase/cap/disable (only 1 level) [disables knockback, exclusive to item]
 
-
+**Wind Thrust**: Throws all mobs other than attacker and target away (spear compatible) [disables knockback]
 
 ## Regular Halberd:
 
@@ -64,8 +64,6 @@ Fully Configurable: All variables can be configured.
 
 
 ## Enchantment Rules:
-
-\- Wind Burst: Throws all other mobs away
 
 \- Sweeping Edge: Left-click only (by default)
 
