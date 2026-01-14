@@ -1,4 +1,5 @@
 # Features (currently not implemented)
+Fully COnfigurable: All variables can be configured.
 
 **Slam Effects**: Crunch sound, screen shake, cracked particles, low-frequency thud (16 block range)
 
@@ -52,9 +53,7 @@
    
    \- Counter fail: Full Slam + "Staggered" debuff (0.5s, can't raise shield)
 
-\- 
-
-Right-click anim: Half cooldown
+\- Right-click attack animation duration: Half of the attack cooldown duration
 
 
 
@@ -70,7 +69,7 @@ Right-click anim: Half cooldown
 
 \- Wind Burst: Throws all other mobs away
 
-\- Sweeping Edge: L-click only
+\- Sweeping Edge: Left-click only (by default)
 
 \- Protection: Reduces bypass chance
 
@@ -82,7 +81,7 @@ Right-click anim: Half cooldown
 
 Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:3072
 
-\- R-click: 2 durability cost
+\- Right-click: 2 durability cost
 
 
 
