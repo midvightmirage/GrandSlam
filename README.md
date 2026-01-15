@@ -33,65 +33,61 @@ Fully Configurable: All variables can be configured.
 
 ## Enchantments:
 
-**Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace when critting. Config for Knockback compat (default false)
+**Weighted**: Pulls enemies. Weaker on non-Halbert. Stronger on Halbert/Mace/Spear when critting. Config for Knockback compat (default false) (2 max levels) [disables knockback]
 
-**Overwhelming Force**: Failed look-up counter = 4s shield cooldown. Damage +1 per 4 fallen blocks, cap 20. Configurable increase/cap/disable
+**Overwhelming Force**: Failed look-up counter = 4s shield cooldown. Damage +1 per 4 fallen blocks, cap 20. Configurable increase/cap/disable (only 1 level) [disables knockback, exclusive to item]
+
+**Wind Thrust**: Throws all mobs other than attacker and target away (spear compatible) [disables knockback]
+
+## Regular Halberd:
+
+\- **Reach**: Spear-equivalent
+
+\- **Speed**: 0.9x sword
+
+\- **Block break**: 0.5x unless mainhand
+
+\- **Shield disable**: Recharges attack coldoown twice as fast for the attacker. 6% chance of shield being bypassed. Protection reduces odds of shield being disabled by 2% per level.
+
+\- **Right-click animation**: Half of attack cooldown
 
 
 
-## Regular Halbert:
+## Grand Halberd:
 
-\- Reach: Spear-equivalent
+\- **Reach**: Spear +3.6m
 
-\- Speed: 0.9x sword
+\- **Speed**: 0.8x sword
 
-\- Block break: 0.5x unless mainhand
+\- **Block break**: 0.8x unless mainhand
 
-\- Shield disable: Recharge doubled, 6% chance of attacker shield being bypassed. Protection reduces 2%/level
+\- **Shield disable**: Recharges attack coldoown twice as fast for the attacker. 26% chance of shield being bypassed. Protection reduces odds of shield being disabled by 2% per level.
 
-\- Right-click anim: Half of attack cooldown
+\- **Right-click**: Bypasses shield (from above). Counter by looking up during attack animation. (Bypasses shield delay by default)
 
-
-
-## Grand Halbert:
-
-\- Reach: Spear +3.6m
-
-\- Speed: 0.8x sword
-
-\- Block break: 0.8x unless mainhand
-
-\- Shield disable: Recharge doubled, 26% chance of attacker shield being bypassed. Protection reduces 2%/level
-
-\- Late Block: Normal bypass chance
-
-\- Right-click: Bypasses shield (from above). Counter by looking up during attack animation. (Bypasses shield delay by default)
-
-   \- Grace period: 0.1s server-side (latency)
+   \- **Grace period**: 0.1s server-side (latency)
    
-   \- Counter success: 100% blocked, no pull, 3x shield durability damage
+   \- **Counter success**: 100% blocked, no pull, 3x shield durability damage
    
-   \- Counter fail: Full Slam + "Staggered" debuff (0.5s, can't raise shield)
+   \- **Counter fail**: Full Slam + "Staggered" debuff (0.5s, can't raise shield)
 
-\- Right-click attack animation duration: Half of the attack cooldown duration
+\- **Right-click attack animation duration**: Half of the attack cooldown duration
 
 
 
 ## Right-click Slam:
 
-\- Cooldown: Spear time (1.2x for Grand)
+\- **Cooldown**: Spear time (1.2x for Grand)
 
-\- Pull: 2 blocks +3 per Weighted level. Duration: 1s +0.2s per level
+\- **Pull**: +3.3 per Weighted level. Duration: 1s +0.2s per level (Only with Weighted) [1.5 per Weighted level on non Grand size Halberd]
 
 
 
 ## Enchantment Rules:
 
-\- Wind Burst: Throws all other mobs away
+\- **Sweeping Edge**: Left-click only (by default)
 
-\- Sweeping Edge: Left-click only (by default)
-
-\- Protection: Reduces bypass chance
+\- **Protection**: Reduces bypass chance (on target's shield)
 
 \- Compatible with all sword enchantments
 
@@ -99,7 +95,7 @@ Fully Configurable: All variables can be configured.
 
 ## Durability:
 
-Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:3072
+**Wood/Gold**:128 | **Stone**:256 | **Copper**:512 | **Iron**:1024 | **Diamond**:2048 | **Netherite**:3072
 
 \- Right-click: 2 durability cost
 
@@ -107,11 +103,11 @@ Wood/Gold:128 | Stone:256 | Copper:512 | Iron:1024 | Diamond:2048 | Netherite:30
 
 ## Tooltips: (Slam blockable= new line)
 
-Regular: "Shield Defense: 6% fail (Protection reduces)"
+**Regular**: "Shield Defense: fals 6% of the time (Protection reduces)"
 
-Grand: "Shield Defense: 26% fail (Protection reduces)"
+**Grand**: "Shield Defense: fails 26% of the time (Protection reduces)"
 
-Both: "• Slam blockable by looking up"
+**Both**: "• Slam blockable by looking up"
 
 
 
@@ -122,3 +118,6 @@ Both: "• Slam blockable by looking up"
 # Contributing
 
 # Credits
+
+# Random Thoughts
+A mod that adds frostbrite (because thought about something relating to shield and fire aspect, specifically fire aspect making shields burn)
