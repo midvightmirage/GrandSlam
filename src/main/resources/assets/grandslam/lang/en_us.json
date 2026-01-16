@@ -1,0 +1,30 @@
+{
+  "item.grandslam.wooden_carishan": "Wooden Carishan",
+  "item.grandslam.stone_carishan": "Stone Carishan",
+  "item.grandslam.copper_carishan": "Copper Carishan",
+  "item.grandslam.golden_carishan": "Golden Carishan",
+  "item.grandslam.iron_carishan": "Iron Carishan",
+  "item.grandslam.diamond_carishan": "Diamond Carishan",
+  "item.grandslam.netherite_carishan": "Netherite Carishan",
+
+  "item.grandslam.wooden_grand_carishan": "Wooden Grand Carishan",
+  "item.grandslam.stone_grand_carishan": "Stone Grand Carishan",
+  "item.grandslam.copper_grand_carishan": "Copper Grand Carishan",
+  "item.grandslam.golden_grand_carishan": "Golden Grand Carishan",
+  "item.grandslam.iron_grand_carishan": "Iron Grand Carishan",
+  "item.grandslam.diamond_grand_carishan": "Diamond Grand Carishan",
+  "item.grandslam.netherite_grand_carishan": "Netherite Grand Carishan",
+
+  "enchantment.grandslam.weighted": "Weighted",
+  "enchantment.grandslam.overwhelming_force": "Overwhelming Force",
+  "enchantment.grandslam.wind_thrust": "Wind Thrust",
+
+  "item.grandslam.carishan.shield_bypass": "Shield Defense: fails %s%% of the time",
+  "item.grandslam.carishan.weighted_pull": "• Pulls enemies on hit",
+  "item.grandslam.carishan.wind_thrust": "• Right-click to thrust forward",
+
+  "item.grandslam.grand_carishan.shield_bypass": "Shield Defense: fails %s%% of the time",
+  "item.grandslam.grand_carishan.overwhelming_force": "• Failed counters disable shields",
+
+  "itemGroup.grandslam.items": "GrandSlam"
+}

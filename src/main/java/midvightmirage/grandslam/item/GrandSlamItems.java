@@ -1,6 +1,7 @@
 package midvightmirage.grandslam.item;
 
 import midvightmirage.grandslam.GrandSlam;
+import midvightmirage.grandslam.item.custom.CarishanItem;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
@@ -10,7 +11,6 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ToolMaterial;
 
 public class GrandSlamItems {
-
     public static float SPEED_REGULAR = -2.16F;
     public static float SPEED_GRAND = -1.92F;
     public static int BASE_CARISHAN_DAMAGE = 4;
@@ -26,24 +26,26 @@ public class GrandSlamItems {
     public static String TOOLTIP_GRAND_DESC = "item.grandslam.grand.desc";
     public static String TOOLTIP_GRAND_SHIFT = "item.grandslam.grand.shift";
 
-    public static Item WOODEN_CARISHAN;
-    public static Item STONE_CARISHAN;
-    public static Item COPPER_CARISHAN;
-    public static Item IRON_CARISHAN;
-    public static Item GOLDEN_CARISHAN;
-    public static Item DIAMOND_CARISHAN;
-    public static Item NETHERITE_CARISHAN;
+    public static CarishanItem WOODEN_CARISHAN;
+    public static CarishanItem STONE_CARISHAN;
+    public static CarishanItem COPPER_CARISHAN;
+    public static CarishanItem IRON_CARISHAN;
+    public static CarishanItem GOLDEN_CARISHAN;
+    public static CarishanItem DIAMOND_CARISHAN;
+    public static CarishanItem NETHERITE_CARISHAN;
 
-    public static Item WOODEN_GRAND_CARISHAN;
-    public static Item STONE_GRAND_CARISHAN;
-    public static Item COPPER_GRAND_CARISHAN;
-    public static Item IRON_GRAND_CARISHAN;
-    public static Item GOLDEN_GRAND_CARISHAN;
-    public static Item DIAMOND_GRAND_CARISHAN;
-    public static Item NETHERITE_GRAND_CARISHAN;
+    public static CarishanItem WOODEN_GRAND_CARISHAN;
+    public static CarishanItem STONE_GRAND_CARISHAN;
+    public static CarishanItem COPPER_GRAND_CARISHAN;
+    public static CarishanItem IRON_GRAND_CARISHAN;
+    public static CarishanItem GOLDEN_GRAND_CARISHAN;
+    public static CarishanItem DIAMOND_GRAND_CARISHAN;
+    public static CarishanItem NETHERITE_GRAND_CARISHAN;
 
     public static void initialize() {
-        GrandSlam.LOGGER.info("Registering Items for" + GrandSlam.MOD_ID);
+
+        GrandSlam.LOGGER.info("Registering Items for " + GrandSlam.MOD_ID);
+
         WOODEN_CARISHAN = registerCarishan("wooden_carishan", ToolMaterial.WOOD, DURABILITY_WOOD, SPEED_REGULAR, false);
         STONE_CARISHAN = registerCarishan("stone_carishan", ToolMaterial.STONE, DURABILITY_STONE, SPEED_REGULAR, false);
         COPPER_CARISHAN = registerCarishan("copper_carishan", ToolMaterial.COPPER, DURABILITY_COPPER, SPEED_REGULAR, false);
@@ -59,16 +61,15 @@ public class GrandSlamItems {
         GOLDEN_GRAND_CARISHAN = registerCarishan("golden_grand_carishan", ToolMaterial.GOLD, DURABILITY_GOLD, SPEED_GRAND, false);
         DIAMOND_GRAND_CARISHAN = registerCarishan("diamond_grand_carishan", ToolMaterial.DIAMOND, DURABILITY_DIAMOND, SPEED_GRAND, false);
         NETHERITE_GRAND_CARISHAN = registerCarishan("netherite_grand_carishan", ToolMaterial.NETHERITE, DURABILITY_NETHERITE, SPEED_GRAND, true);
-        GrandSlam.LOGGER.info("Registered Items for" + GrandSlam.MOD_ID);
+        GrandSlam.LOGGER.info("Registered Items for " + GrandSlam.MOD_ID);
 
+        CarishanItem.initialize();
     }
 
-    private static Item registerCarishan(String name, ToolMaterial material, int durability, float attackSpeed, boolean fireResistant) {
+    private static CarishanItem registerCarishan(String name, ToolMaterial material, int durability, float attackSpeed, boolean fireResistant) {
 
         boolean isGrand = name.contains("grand");
-
         ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(GrandSlam.MOD_ID, name));
-
         Item.Properties properties = new Item.Properties()
                 .rarity(isGrand ? Rarity.RARE : Rarity.COMMON)
                 .sword(material, material.attackDamageBonus() + BASE_CARISHAN_DAMAGE + (isGrand ? 4 : 0), attackSpeed)
@@ -83,5 +84,3 @@ public class GrandSlamItems {
         return net.minecraft.core.Registry.register(BuiltInRegistries.ITEM, key, item);
     }
 }
-
-
